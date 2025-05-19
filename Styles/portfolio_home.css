@@ -1,0 +1,72 @@
+/* 
+    Portfolio Home Page CSS
+*/
+body, *, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: sans-serif; /*TODO: Change font */
+    font-size: 16px;
+    color: #474747;
+}
+
+header {
+    background-color: #FE5D26;
+    color: #fff;
+    padding: 0 0 20px 0;
+    text-align: center;
+}
+
+a {
+    color: inherit;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover, a:visited, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.page_header {
+    border-top: 5px solid #F2C078;
+    padding-bottom: 2em;
+    width: 100%;
+    max-width: 100%;
+}
+.page_header div {
+    position: relative;
+    max-width: 100%;
+}
+.page_header nav {
+    float: right;    
+}
+.page_header nav li {
+    float: left;
+    margin-right: 3rem;
+    padding-top: 3rem;
+}
+.page_header nav li:last-child {
+    margin-right: 0;
+}
+.fixed-width {
+    width: 100%;
+    margin: 0 auto;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+
+/* color scheme 
+    #FE5D26
+    #F2C078
+    #FAEDCA
+    #C1DBB3
+*/
