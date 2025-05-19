@@ -1,18 +1,29 @@
 <html>
 <head>
-    <title>Home</title>
+    <title>Home</title>    
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
     <link rel="stylesheet" type="text/css" href="Styles/portfolio_home.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
+    <header class = "page_header">
+        <div class="header-content">
+            <img id="logo" src="Images/logo.png" alt="Logo">
+            <nav>
+                <ul>
+                    <li><a href="portfolio_home.html">Home</a></li>
+                    <li><a href="portfolio_projects.html">Projects</a></li>
+                    <li><a href="portfolio_about.html">About Me</a></li>
+                    <li><a href="portfolio_contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <section>
-            <img src="Images/profile.jpg" alt="Home Background Photo" class="profile-pic">
-            <h1>David Kang</h1>
+            <img id="main-background-pic" src="Images/main-background.jpg" alt="Home Background Photo">
+            <h1 id="main-name">David Kang</h1>
             <p>Student at Hong Kong Adventist Academy</p>
-            <img src="Images/portfolio.jpg" alt="Profile Photo" class="portfolio-pic">
+            <img id="profile-pic" src="Images/main-profile.jpg" alt="Home Profile Photo">
         </section>
         <section>
             <h2>Welcome to my Portfolio!</h2>
