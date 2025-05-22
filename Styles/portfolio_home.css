@@ -1,14 +1,46 @@
 /* 
     Portfolio Home Page CSS
 */
+
+
+/*fonts*/
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.merriweather-sans {
+  font-family: "Merriweather Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
 body, *, *:before, *:after {
     box-sizing: border-box;
 }
 
 html, body {
-    font-family: sans-serif; /*TODO: Change font */
+    font-family: "Merriweather", sans-serif;
     font-size: 16px;
-    background-color: #474747;
+    background-color: #264653;
 }
 
 a {
@@ -23,7 +55,7 @@ a:hover, a:visited, a:active {
 }
 
 .main_content {
-    max-width: 1200px;
+    max-width: 1800px;
     margin: 0 auto;
     padding: 0 24px;      
     box-sizing: border-box;
@@ -37,10 +69,12 @@ header {
     display: flex;
     flex-direction: row;
     height: auto;
+    font-family: 'Merriweather', serif;
 }
 
 .navbar {
-    background-color: #C1DBB3;
+    position: fixed;
+    background-color: #e76f51;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -48,6 +82,8 @@ header {
     margin: 0;
     width: 100%;
     padding: 0;
+    z-index: 1000;
+    height: 60px;
 }
 
 .navbar #logo {
@@ -73,7 +109,7 @@ header {
 }
 
 .navbar li a {
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 1.2rem;
     padding: 10px;
 }
@@ -86,28 +122,46 @@ header {
     position: relative;
     width: 100%;
     max-width: 100%;
-    margin-top: 30px;
+    margin-top: 145px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+    min-height: 0;
 }
 
-.profile_text {
-    position: absolute;
+.profile_text_container{
+    position: static;
     left: 10%;              /* Adjust horizontal position */
     top: 20%;                /* Adjust vertical position */
-    color: #fff;             /* Or another color for contrast */
+    color: #ffffff;             /* Or another color for contrast */
     text-shadow: 0 2px 8px rgba(0,0,0,0.5); 
+    margin-left: 290px;
+    margin-right: 80px;
+    font-family: 'Merriweather', serif;
 }
 
-#main_background_pic {
-    width: 100%;
-    height: auto;
-    display: block;
-} 
+.profile_text_container h1 {
+    font-size: 3rem;
+    margin-bottom: 20;
+    font-family: 'Merriweather', serif;
+}
+
+.profile_text_container p {
+    font-size: 1rem;
+    margin: 0;
+    line-height: 1.5;
+    max-width: 360px;
+}
+
+.profile_text_container p span {
+    color: #f4a261;
+}
+
 
 #profile_pic {
-    position: absolute;
-    left: 55%;
-    top: 50%;
-    transform: translateY(-50%);
+    position: static;
+    object-fit: cover;
     width: 450px;
     height: 450px;
     border-radius: 50%;
@@ -120,8 +174,9 @@ header {
 
 
 /* color scheme 
-    #FE5D26
-    #F2C078
-    #FAEDCA
-    #C1DBB3
+    264653
+    2a9d8f
+    e9c46a
+    f4a261
+    e76f51
 */
