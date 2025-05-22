@@ -88,9 +88,13 @@ header {
 
 .navbar #logo {
     display: flex;
-    width: 48px;
+    transform: translateY(-34.5%);
+    width: 180px;
     height: auto;
-    margin: 10px 0;
+    margin-left: 262px;
+    padding: 0;
+    display: block;
+    object-fit: cover;
 }
 
 .navbar ul {
@@ -114,8 +118,9 @@ header {
     padding: 10px;
 }
 
-.navbar ul:last-child li{
-    margin-right: 0;
+.navbar ul:last-child{
+    margin-right: 265px;
+    padding-right: 0
 }
 
 .introduction_container {
@@ -136,8 +141,8 @@ header {
     top: 20%;                /* Adjust vertical position */
     color: #ffffff;             /* Or another color for contrast */
     text-shadow: 0 2px 8px rgba(0,0,0,0.5); 
-    margin-left: 290px;
-    margin-right: 80px;
+    margin-left: 265px;
+    margin-right: 105px;
     font-family: 'Merriweather', serif;
 }
 
@@ -169,6 +174,7 @@ header {
     box-shadow: 0 4px 16px rgba(0,0,0,0.2); /* Optional: subtle shadow */
     display: block;
     background: #fff;
+    margin-right:265px;
 }
 
 
