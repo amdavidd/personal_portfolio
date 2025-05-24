@@ -2,37 +2,6 @@
     Portfolio Home Page CSS
 */
 
-
-/*fonts*/
-.merriweather-regular {
-  font-family: "Merriweather", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-
-.merriweather-bold {
-  font-family: "Merriweather", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-
-
-.merriweather-sans {
-  font-family: "Merriweather Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-
-
-
 body, *, *:before, *:after {
     box-sizing: border-box;
 }
@@ -53,6 +22,7 @@ a:hover, a:visited, a:active {
     text-decoration: none;
     color: inherit;
 }
+
 
 .main_content {
     max-width: 1800px;
@@ -91,8 +61,8 @@ header {
     transform: translateY(-34.5%);
     width: 180px;
     height: auto;
-    margin-left: 262px;
     padding: 0;
+    margin-left: 55px;
     display: block;
     object-fit: cover;
 }
@@ -108,8 +78,8 @@ header {
 .navbar li {
     display: flex;
     justify-content: flex-end;
-    padding: 10px;
-    margin-right: 20px;
+    padding: 10px 16px;
+    height: 60px;
 }
 
 .navbar li a {
@@ -119,6 +89,74 @@ header {
 }
 
 .navbar ul:last-child{
-    margin-right: 265px;
-    padding-right: 0
+    margin-right: 70px;
 }
+
+.navbar li:hover{
+    background-color: #f4a261;
+    transition: background-color 0.3s ease-in;
+}
+
+.main_content {
+    margin: 145px 265px;
+}
+
+.main_content h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.5); 
+    font-family: 'Merriweather', serif;
+}
+
+.project_list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 28.7px;
+    width: 100%;
+    margin: 50px 0;
+    box-sizing: border-box;
+}
+
+.project_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e9c46a;
+    padding: 24px;
+    margin: 0;
+    border-radius: 12px;
+    min-width: 260px;
+    max-width: 295px;
+}
+
+.project_item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.project_item h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin: 10px 0;
+    text-align: center;
+}
+.project_item p {
+    font-size: 1rem;
+    color: #ffffff;
+    margin: 5px 0px 10px;
+    text-align: center;
+}
+
+/* color scheme 
+    264653
+    2a9d8f
+    e9c46a
+    f4a261  
+    e76f51
+*/

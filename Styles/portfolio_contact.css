@@ -2,37 +2,6 @@
     Portfolio Home Page CSS
 */
 
-
-/*fonts*/
-.merriweather-regular {
-  font-family: "Merriweather", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-
-.merriweather-bold {
-  font-family: "Merriweather", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-
-
-.merriweather-sans {
-  font-family: "Merriweather Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-
-
-
 body, *, *:before, *:after {
     box-sizing: border-box;
 }
@@ -53,6 +22,7 @@ a:hover, a:visited, a:active {
     text-decoration: none;
     color: inherit;
 }
+
 
 .main_content {
     max-width: 1800px;
@@ -91,8 +61,8 @@ header {
     transform: translateY(-34.5%);
     width: 180px;
     height: auto;
-    margin-left: 262px;
     padding: 0;
+    margin-left: 55px;
     display: block;
     object-fit: cover;
 }
@@ -108,8 +78,8 @@ header {
 .navbar li {
     display: flex;
     justify-content: flex-end;
-    padding: 10px;
-    margin-right: 20px;
+    padding: 10px 16px;
+    height: 60px;
 }
 
 .navbar li a {
@@ -119,6 +89,19 @@ header {
 }
 
 .navbar ul:last-child{
-    margin-right: 265px;
-    padding-right: 0
+    margin-right: 70px;
 }
+
+.navbar li:hover{
+    background-color: #f4a261;
+    transition: background-color 0.3s ease-in;
+}
+
+
+/* color scheme 
+    264653
+    2a9d8f
+    e9c46a
+    f4a261
+    e76f51
+*/
