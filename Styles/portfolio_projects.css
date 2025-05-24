@@ -1,0 +1,124 @@
+/* 
+    Portfolio Home Page CSS
+*/
+
+
+/*fonts*/
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.merriweather-sans {
+  font-family: "Merriweather Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+body, *, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Merriweather", sans-serif;
+    font-size: 16px;
+    background-color: #264653;
+}
+
+a {
+    color: inherit;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover, a:visited, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.main_content {
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 24px;      
+    box-sizing: border-box;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    font-family: 'Merriweather', serif;
+}
+
+.navbar {
+    position: fixed;
+    background-color: #e76f51;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    z-index: 1000;
+    height: 60px;
+}
+
+.navbar #logo {
+    display: flex;
+    transform: translateY(-34.5%);
+    width: 180px;
+    height: auto;
+    margin-left: 262px;
+    padding: 0;
+    display: block;
+    object-fit: cover;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.navbar li a {
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.navbar ul:last-child{
+    margin-right: 265px;
+    padding-right: 0
+}
