@@ -174,10 +174,16 @@ header {
 
 .project_item p {
     font-size: 1rem;
+    line-height: 1.5;
     color: #ffffff;
     margin: 5px 0px 10px;
     text-align: center;
 }
+
+.project_item p span {
+    color: #e9c46a; /* Highlight color for specific text */
+}
+
 
 .project_item a {
     font-size: 1rem;
