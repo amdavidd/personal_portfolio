@@ -29,7 +29,7 @@ a:hover, a:visited, a:active {
 
 .main_content {
     max-width: 1800px;
-    margin: 0 auto;
+    margin: 100px 265px;
     padding: 0 24px;      
     box-sizing: border-box;
 }
@@ -104,7 +104,6 @@ header {
     position: relative;
     width: 100%;
     max-width: 100%;
-    margin-top: 145px;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -118,7 +117,6 @@ header {
     top: 20%;                /* Adjust vertical position */
     color: #ffffff;             /* Or another color for contrast */
     text-shadow: 0 2px 8px rgba(0,0,0,0.5); 
-    margin-left: 265px;
     margin-right: 105px;
     font-family: 'Merriweather', serif;
 }
@@ -157,7 +155,6 @@ header {
     box-shadow: 0 4px 16px rgba(0,0,0,0.2); /* Optional: subtle shadow */
     display: block;
     background: #fff;
-    margin-right:265px;
 }
 
 /* color scheme 
