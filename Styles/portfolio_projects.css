@@ -31,7 +31,30 @@ a:hover, a:visited, a:active {
     max-width: 1800px;
     padding: 0 24px;      
     box-sizing: border-box;
-    margin: 145px 265px;
+    margin: 100px 265px;
+}
+
+/* Medium screens */
+@media (max-width: 1200px) {
+    .main_content {
+        margin: 80px 60px;
+    }
+}
+
+/* Small screens (tablets/phones) */
+@media (max-width: 800px) {
+    .main_content {
+        margin: 60px 16px;
+        padding: 0 8px;
+    }
+}
+
+/* Extra small screens */
+@media (max-width: 500px) {
+    .main_content {
+        margin: 40px 4px;
+        padding: 0 2px;
+    }
 }
 
 header {
@@ -103,7 +126,7 @@ header {
 .main_content h1 {
     font-size: 2.5rem;
     color: #ffffff;
-    margin-bottom: 20px;
+    padding-top: 45px;
     text-align: center;
     text-shadow: 0 2px 8px rgba(0,0,0,0.5); 
     font-family: 'Merriweather', serif;
