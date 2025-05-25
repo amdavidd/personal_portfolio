@@ -4,6 +4,9 @@
 
 body, *, *:before, *:after {
     box-sizing: border-box;
+    user-select: none;
+    -webkit-user-select: none; /* For Safari */
+    -ms-user-select: none;     /* For IE/Edge */
 }
 
 html, body {
@@ -137,6 +140,12 @@ header {
     color: #f4a261;
 }
 
+.profile_text_container #download_link {
+    color: #2a9d8f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 
 #profile_pic {
     position: static;
@@ -150,8 +159,6 @@ header {
     background: #fff;
     margin-right:265px;
 }
-
-
 
 /* color scheme 
     264653

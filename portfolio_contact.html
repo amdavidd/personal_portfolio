@@ -27,10 +27,43 @@
     </header>
     <main>
         <div class="main_content">
+            <div class="main_contact">
+                <img id="contact_profile_pic" src="Images/contact_profile.jpg" alt="Contact Profile Photo">
+                <h3>Contact</h3>
+                <h1>Hong Kong</h1>
+                <h1>+852 5446 6558</h1>
+                <p>You can also find me on my <span>social media</span> accounts below:</p>
+            </div>
+            <div class="additional_contacts">
+                <a href="https://github.com/amdavidd" target="_blank">
+                    <img src="Images/github.png" alt="GitHub Logo">
+                    <span>GitHub</span>
+                </a>
+                <a href="mailto:david.kang@hkaa.edu.hk" target="_blank">
+                    <img src="Images/gmail.png" alt="Gmail Logo">
+                    <span>Gmail</span>
+                </a>
+                <a href="https://www.instagram.com/amdavidd/" target="_blank">
+                    <img src="Images/instagram.png" alt="Instagram Logo">
+                    <span>Instagram</span>
+                </a>
+            </div>
+            <div class="contact">
+                <p>Or, send me a direct <span>message</span> below!</p>
+                <form id="contact_form" action="https://formspree.io/f/xjvjlqgk" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
 
-        </div>
-        <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="_replyto" required>
 
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+
+            </div>
         </div>
     </main>
     <footer>

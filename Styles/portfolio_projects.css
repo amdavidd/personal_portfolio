@@ -4,6 +4,9 @@
 
 body, *, *:before, *:after {
     box-sizing: border-box;
+    user-select: none;
+    -webkit-user-select: none; /* For Safari */
+    -ms-user-select: none;     /* For IE/Edge */
 }
 
 html, body {
@@ -29,6 +32,7 @@ a:hover, a:visited, a:active {
     margin: 0 auto;
     padding: 0 24px;      
     box-sizing: border-box;
+    margin: 145px 265px;
 }
 
 header {
@@ -97,10 +101,6 @@ header {
     transition: background-color 0.3s ease-in;
 }
 
-.main_content {
-    margin: 145px 265px;
-}
-
 .main_content h1 {
     font-size: 2.5rem;
     color: #ffffff;
@@ -126,7 +126,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #e9c46a;
+    background-color: #2a9d8f;
     padding: 24px;
     margin: 0;
     border-radius: 12px;
