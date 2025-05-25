@@ -1,6 +1,4 @@
-/* 
-    Portfolio Home Page CSS
-*/
+/* Portfolio About Page CSS */
 
 body, *, *:before, *:after {
     box-sizing: border-box;
@@ -55,7 +53,6 @@ a:hover, a:visited, a:active {
         padding: 0 2px;
     }
 }
-
 
 header {
     padding: 0;
@@ -122,8 +119,6 @@ header {
     background-color: #f4a261;
     transition: background-color 0.3s ease-in;
 }
-
-
 
 /* color scheme 
     264653

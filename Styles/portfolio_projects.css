@@ -1,6 +1,4 @@
-/* 
-    Portfolio Home Page CSS
-*/
+/* Portfolio Project Page CSS */
 
 body, *, *:before, *:after {
     box-sizing: border-box;
@@ -154,6 +152,18 @@ header {
     border-radius: 12px;
     min-width: 260px;
     max-width: 295px;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.5); 
+}
+
+.project_item h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.4px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 10px 0;
+    text-align: center;
 }
 
 .project_item img {
@@ -161,18 +171,19 @@ header {
     height: auto;
     object-fit: cover;
 }
-.project_item h2 {
-    font-family: 'Merriweather', serif;
-    font-size: 1.5rem;
-    color: #ffffff;
-    margin: 10px 0;
-    text-align: center;
-}
+
 .project_item p {
     font-size: 1rem;
     color: #ffffff;
     margin: 5px 0px 10px;
     text-align: center;
+}
+
+.project_item a {
+    font-size: 1rem;
+    color: #ffffff;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease-in-out;
 }
 
 /* color scheme 

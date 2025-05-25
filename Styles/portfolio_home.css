@@ -1,6 +1,4 @@
-/* 
-    Portfolio Home Page CSS
-*/
+/* Portfolio Home Page CSS */
 
 body, *, *:before, *:after {
     box-sizing: border-box;
@@ -25,7 +23,6 @@ a:hover, a:visited, a:active {
     text-decoration: none;
     color: inherit;
 }
-
 
 .main_content {
     max-width: 1800px;
@@ -138,10 +135,13 @@ header {
     position: static;
     left: 10%;              /* Adjust horizontal position */
     top: 20%;                /* Adjust vertical position */
-    color: #ffffff;             /* Or another color for contrast */
+    color: #ffffff;
+    letter-spacing: 0.4px;
+    line-height: 1.2;             /* Or another color for contrast */
     text-shadow: 0 2px 8px rgba(0,0,0,0.5); 
     margin-right: 105px;
     font-family: 'Merriweather', serif;
+    
 }
 
 .profile_text_container h1 {
@@ -166,7 +166,6 @@ header {
     text-decoration: none;
     font-weight: bold;
 }
-
 
 #profile_pic {
     position: static;
