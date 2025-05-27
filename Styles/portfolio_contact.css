@@ -203,6 +203,7 @@ header {
 
 .additional_contacts a:hover span{
     color: #2a9d8f; /* change to a different color on hover */
+    transition: color 0.3s ease-in;
 }
 
 .additional_contacts img {
@@ -233,6 +234,74 @@ header {
     color: #f4a261; 
     font-size: 1.2rem;
 }
+
+#contact_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #e9c46a;
+    border-radius: 16px;
+}
+
+#contact_form .form_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 960px;
+}
+
+#contact_form .form_body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    width: 100%;
+    max-width: 960px;
+}
+
+#contact_form .form_field {
+    flex: 0 1 300px;      /* Default width 300px, can shrink/grow */
+    min-width: 100px;
+    max-width: 480px;     /* Minimum width */
+    width: 100%;
+    margin: 20px 15px;
+    padding: 0;
+}
+
+#contact_form label {
+    display: block;
+    color: #ffffff; 
+    font-size: 1.2rem;
+    margin: 0 0 10px 0;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.5); 
+}
+
+#contact_form input, #contact_form textarea {
+    width: 300px;        /* Default width */
+    min-width: 100px;    /* Minimum width */
+    height: 40px;
+    font-size: 1.1rem;
+    padding: 10px;
+    border: 2.5px solid #1a1d23;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+#contact_form textarea {
+    height: 120px;
+    max-width: 640px;
+    min-width: 320px;
+    width: 100%;
+    resize: vertical;
+}
+
 
 footer {
     width: 100%;
