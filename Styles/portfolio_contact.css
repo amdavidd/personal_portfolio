@@ -1,4 +1,4 @@
-/* Portfolio Contact Page CSS */
+/* Portfolio Project Page CSS */
 
 body, *, *:before, *:after {
     box-sizing: border-box;
@@ -11,6 +11,13 @@ html, body {
     font-family: "Merriweather", sans-serif;
     font-size: 16px;
     background-color: #264653;
+    background: linear-gradient(to bottom, #264653 0%, #2b5a63 );
+}
+
+body {
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh;
 }
 
 a {
@@ -26,9 +33,10 @@ a:hover, a:visited, a:active {
 
 .main_content {
     max-width: 1800px;
-    margin: 100px 265px;
-    padding: 0 24px;      
+    margin: 0 265px;
+    padding: 100px 24px;      
     box-sizing: border-box;
+    flex: 1;
 }
 
 /* Medium screens */
@@ -145,6 +153,10 @@ header {
     font-size: 1.2rem;
 }
 
+.main_contact #location {
+    color: #e9c46a; 
+}
+
 .main_contact {
     display: flex;
     text-align: center;
@@ -157,8 +169,7 @@ header {
     object-fit: cover;
     align-self: center;
     width: 300px;
-    max-width: 100%;
-    height: auto;
+    height: 300px;
     border-radius: 50%;
     border: 6px solid #fff; /* Optional: white border for contrast */
     box-shadow: 0 4px 16px rgba(0,0,0,0.2); /* Optional: subtle shadow */
@@ -222,6 +233,22 @@ header {
     color: #f4a261; 
     font-size: 1.2rem;
 }
+
+footer {
+    width: 100%;
+    background: #1a1d23;
+    color: #e0e1dd;
+    text-align: center;
+    padding: 32 0 20px 0;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.5);
+}
+
+footer p {
+    margin: 20px 0;
+}
+
 
 /* color scheme 
     264653

@@ -11,6 +11,13 @@ html, body {
     font-family: "Merriweather", sans-serif;
     font-size: 16px;
     background-color: #264653;
+    background: linear-gradient(to bottom, #264653 0%, #2b5a63 );
+}
+
+body {
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh;
 }
 
 a {
@@ -24,12 +31,12 @@ a:hover, a:visited, a:active {
     color: inherit;
 }
 
-
 .main_content {
     max-width: 1800px;
-    padding: 0 24px;      
+    margin: 0 265px;
+    padding: 100px 24px;      
     box-sizing: border-box;
-    margin: 100px 265px;
+    flex: 1;
 }
 
 /* Medium screens */
@@ -190,6 +197,21 @@ header {
     color: #ffffff;
     padding: 10px 20px;
     transition: background-color 0.3s ease-in-out;
+}
+
+footer {
+    width: 100%;
+    background: #1a1d23;
+    color: #e0e1dd;
+    text-align: center;
+    padding: 32 0 20px 0;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.5);
+}
+
+footer p {
+    margin: 20px 0;
 }
 
 /* color scheme 
