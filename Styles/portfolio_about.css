@@ -22,7 +22,7 @@ body {
 
 a {
     color: inherit;
-    font-weight: bold;
+    font-weight: 700;
     text-decoration: none;
 }
 
@@ -43,6 +43,9 @@ a:hover, a:visited, a:active {
     .main_content {
         margin: 80px 60px;
     }
+    nav.navbar > #logo {
+        margin-left: 35px;
+    }
 }
 
 /* Small screens (tablets/phones) */
@@ -51,6 +54,9 @@ a:hover, a:visited, a:active {
         margin: 60px 16px;
         padding: 0 8px;
     }
+    nav.navbar > #logo {
+        margin-left: 20px;
+    }
 }
 
 /* Extra small screens */
@@ -58,6 +64,9 @@ a:hover, a:visited, a:active {
     .main_content {
         margin: 40px 4px;
         padding: 0 2px;
+    }
+    nav.navbar > #logo {
+        margin-left: 5px;
     }
 }
 
@@ -125,6 +134,96 @@ header {
 .navbar li:hover{
     background-color: #f4a261;
     transition: background-color 0.3s ease-in;
+}
+
+.main_content section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #2a9d8f;
+    border-radius: 16px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.main_content section li {
+    letter-spacing: 0.4px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.main_content section h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+    letter-spacing: 0.4px;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+.main_content section h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+}
+
+.main_content section h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.main_content section h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.main_content li em {
+    font-weight: 700;
+    width: 100%;
+    display: block;
+    text-align: center;
+    color: #e9c46a;
+    font-size: 1.2rem;
+}
+
+.main_content section li span {
+    color: #e9c46a;
+}
+
+.main_content .bullet_points {
+    list-style-type: disc;
+    padding-left: 18px;
+}
+
+.main_content .activity_item {
+    margin: 20px 0;
+}
+
+
+.main_content #academics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_content #activities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_content #activities ul{
+    margin: 0 32px;
+}
+
+.main_content #future_plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 footer {
