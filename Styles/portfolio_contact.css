@@ -210,7 +210,7 @@ header {
 }
 
 .additional_contacts a:hover span{
-    color: #2a9d8f; /* change to a different color on hover */
+    color: #4fd6ff; /* change to a different color on hover */
     transition: color 0.3s ease-in;
 }
 

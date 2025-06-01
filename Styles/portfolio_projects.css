@@ -202,9 +202,13 @@ header {
 
 .project_item a {
     font-size: 1rem;
-    color: #ffffff;
+    color: #f1f1f1;
     padding: 10px 20px;
-    transition: background-color 0.3s ease-in-out;
+    transition: color 0.4s ease-in-out;
+}
+
+.project_item a:hover {
+    color: #4fd6ff;
 }
 
 footer {
