@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 showMessage('Your message has been sent! We will get back to you.', true);
             } 
             else {
-                showMessage("Oops! There was a problem submitting your form. Please try again.", false);
+                showMessage("There was a problem submitting your form. Please try again.", false);
             }
         })
         .catch(() => {

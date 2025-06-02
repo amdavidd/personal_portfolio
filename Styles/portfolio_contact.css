@@ -30,18 +30,29 @@ a:hover, a:visited, a:active {
     text-decoration: none;
     color: inherit;
 }
+
 .main_content {
     max-width: 1800px;
     margin: 0 265px;
-    padding: 100px 24px 50px 24px;      
+    padding: 100px 24px 50px 24px;         
     box-sizing: border-box;
     flex: 1;
+}
+
+/* Large screens */
+@media (max-width: 1600px) {
+    .main_content {
+        margin: 0 200px;
+    }
+    nav.navbar > #logo {
+        margin-left: 45px;
+    }
 }
 
 /* Medium screens */
 @media (max-width: 1200px) {
     .main_content {
-        margin: 80px 60px;
+        margin: 40px 150px;
     }
     nav.navbar > #logo {
         margin-left: 35px;
@@ -51,7 +62,7 @@ a:hover, a:visited, a:active {
 /* Small screens (tablets/phones) */
 @media (max-width: 800px) {
     .main_content {
-        margin: 60px 16px;
+        margin: 40px 85px;
         padding: 0 8px;
     }
     nav.navbar > #logo {
@@ -62,7 +73,7 @@ a:hover, a:visited, a:active {
 /* Extra small screens */
 @media (max-width: 500px) {
     .main_content {
-        margin: 40px 4px;
+        margin: 40px 50px;
         padding: 0 2px;
     }
     nav.navbar > #logo {
