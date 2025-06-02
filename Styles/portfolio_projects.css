@@ -33,7 +33,7 @@ a:hover, a:visited, a:active {
 .main_content {
     max-width: 1800px;
     margin: 0 265px;
-    padding: 100px 24px;      
+    padding: 100px 24px 50px 24px;      
     box-sizing: border-box;
     flex: 1;
 }
