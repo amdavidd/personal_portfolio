@@ -193,9 +193,11 @@ header {
 }
 
 .project_item img {
-    width: 100%;
+    width: 200px;
     height: auto;
     object-fit: cover;
+    border: 3px solid #264653;
+    box-sizing: border-box;
 }
 
 .project_item p {
@@ -204,6 +206,8 @@ header {
     color: #ffffff;
     margin: 5px 0px 10px;
     text-align: center;
+    border-radius: 8px;
+    aspect-ratio: 3 / 2;
 }
 
 .project_item p span {
