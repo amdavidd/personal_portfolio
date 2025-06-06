@@ -34,7 +34,7 @@ a:hover, a:visited, a:active {
 .main_content {
     max-width: 1800px;
     margin: 0 265px;
-    padding: 100px 24px 50px 24px;         
+    padding: 100px 0px 50px 0px;         
     box-sizing: border-box;
     flex: 1;
 }
@@ -42,7 +42,7 @@ a:hover, a:visited, a:active {
 /* Large screens */
 @media (max-width: 1600px) {
     .main_content {
-        margin: 0 200px;
+        margin: 0 200px; 
     }
     nav.navbar > #logo {
         margin-left: 45px;
